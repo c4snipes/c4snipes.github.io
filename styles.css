@@ -1,0 +1,20 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("bootstrap-5.3.3/assets/brand/bootstrap-logo-shadow.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+#projects .card {
+  transition: transform 0.2s ease-in-out;
+}
+
+#projects .card:hover {
+  transform: translateY(-5px);
+}
