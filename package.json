@@ -1,0 +1,15 @@
+{
+  "name": "c4snipes-portfolio",
+  "version": "1.0.0",
+  "description": "Cole Snipes portfolio site",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests\""
+  },
+  "author": "Cole Snipes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
